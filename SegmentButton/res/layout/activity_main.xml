@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#BDBDBD">
+    
+    <com.example.segmentbutton.SegmentedRadioGroup
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dip"
+		android:orientation="horizontal"
+		android:layout_alignParentTop="true"
+		android:layout_centerInParent="true"
+		android:id="@+id/segment_text"
+		android:checkedButton="@+id/button_one">
+		
+		<RadioButton android:id="@id/button_one"
+			android:minWidth="40dip"
+			android:minHeight="33dip"
+			android:text="Kalidoss"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:button="@null"
+			android:gravity="center"
+			android:textColor="#01A9DB" />
+		<RadioButton android:id="@+id/button_two"
+			android:minWidth="40dip"
+			android:minHeight="33dip"
+			android:text="Rajendran"
+			android:button="@null"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#01A9DB" />
+		
+	</com.example.segmentbutton.SegmentedRadioGroup>
+
+</RelativeLayout>
